@@ -1,9 +1,9 @@
-# Joins Queries
+# Subqueries Practice
 
-This folder contains SQL demonstrating INNER JOIN, LEFT JOIN, and FULL OUTER JOIN (or equivalent).
+This folder contains SQL scripts demonstrating both correlated and non-correlated subqueries.
 
 ## Queries Included
-1. **INNER JOIN**: Bookings with the users who made them.
-2. **LEFT JOIN**: Properties with their reviews (even properties without reviews).
-3. **FULL OUTER JOIN (or equivalent)**: All users and all bookings, even if the user has no booking or a booking is not linked to a user.
+
+1. **Non-Correlated Subquery**: Find all properties where the average rating is greater than 4.0.
+2. **Correlated Subquery**: Find users who have made more than 3 bookings.
 
